@@ -12,8 +12,6 @@ const randomInrange = randomDecimal * range//Step 3: Using the random decimal nu
 
 const randomInt = Math.floor(randomInRange);//## Step 4 🧩Round down the decimal number obtained in Step 3 to get a whole integer.
 
-
-
 const shiftValue = randomInt + 3;//Step 5: adjust the integer obtained in Step 4 to fit within the range of 3 to 33, inclusive.
 
 // Question 1: Why did we add 1 to the difference between 33 and 3? Answer: We added 1 to ensure we include both endpoints of our range, 3 and 33, so we have a total of 31 possible numbers (from 3 to 33 inclusive).
